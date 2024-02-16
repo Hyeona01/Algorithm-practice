@@ -7,6 +7,7 @@
 => n-1 개
 '''
 
+'''
 X = int(input())
 cnt, n = 1, 1 # n: 한 줄의 대각선에 위치한 요소 갯수
 row, col = 1, 1
@@ -31,5 +32,22 @@ while cnt < X :
     cnt += 1
 
 print(row , "/" , col)
+'''
 
 # 위의 풀이는 시간 초과로 실패
+
+X = int(input())
+n = 1
+
+while X > n :
+    X -= n
+    n += 1
+    
+if n % 2 == 0 :
+    a = X
+    b = n - X + 1
+else:
+    b = X
+    a = n - X + 1
+    
+print(str(a)+'/'+str(b))
