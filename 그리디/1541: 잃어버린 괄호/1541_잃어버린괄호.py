@@ -16,3 +16,5 @@ for i in range(minus):
   result -= nums[cnt+i]
 
 print(result)
+
+# 문제를 잘못 이해함 -> 기존 순서는 그대로이되, 괄호만 추가 삽입!!
