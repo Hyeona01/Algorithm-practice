@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/seolhyeona/Desktop/24-1/정보보호개론/실습",
+      "program": "/Users/seolhyeona/Desktop/24-1/정보보호개론/실습/build/Debug/outDebug"
+    }
+  ]
+}
